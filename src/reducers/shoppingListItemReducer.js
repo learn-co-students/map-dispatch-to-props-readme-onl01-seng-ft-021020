@@ -1,5 +1,6 @@
 export default function shoppingListItemReducer(state = {
-  items: []
+  items: [],
+  hola: ''
 }, action) {
   console.log(action)
   switch(action.type) {
